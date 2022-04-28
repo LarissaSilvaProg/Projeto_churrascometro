@@ -1,0 +1,89 @@
+body{
+    display: flex;
+    background-image: url(../imagens/fundo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container{
+    max-width: 100%; /*tamanho max da div*/
+    max-height: 50rem ;
+    margin: auto; /*centralizar a div*/
+    background-color: rgba(247, 224, 224, 0.911); /*cor de fundo*/
+    padding: 20px; /*espaco entre conteudo e borda*/
+    border-radius: 10px; /*arredondar borda*/
+    text-align: center;
+}
+
+h1{
+    font-family: Titulo;
+}
+
+input{
+    width: 100%; /*ocupa toda a da divlargura */
+    display: block;
+    padding: 5px; /*espaco entre conteudo e borda*/
+    box-sizing: border-box;
+    margin-bottom: 10px; /*espaco entre os botoes somete na parte de baixo*/
+    font-size: 1.2rem;
+    border-radius: 1rem;
+    border: 1px;
+    border-color: rgb(235, 168, 145);
+    border-style: solid;
+    text-align: center;
+    
+
+}
+
+button{
+    width: 7rem;
+    height: 3rem;
+    font-size: 1.3rem;
+    border-radius: 1rem;
+    border: none;
+    background-color: rgb(231, 131, 131);
+    color: aliceblue;
+}
+
+.h2{
+    font-family: Subtitulo;  /* classe criada no js */
+
+}
+
+img{
+    float: left;
+    padding: 0;
+    margin: 0;
+}
+
+
+p{
+    font-family: Paragrafo;
+    font-size: 1.7rem;  
+
+}
+
+
+input:hover{
+    background-color: rgb(228, 122, 122);
+    color: white;
+}
+
+button:hover{
+    background-color: brown;
+}
+
+@font-face {
+    font-family: Titulo;
+    src: url(../fontes/RobotoCondensed-Light.ttf);
+}
+
+@font-face {
+    font-family: Paragrafo;
+    src: url(../fontes/RobotoCondensed-Regular.ttf);
+}
+
+@font-face {
+    font-family: Subtitulo;
+    src: url(../fontes/RobotoCondensed-Regular.ttf);
+}
